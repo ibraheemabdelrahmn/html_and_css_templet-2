@@ -380,7 +380,7 @@ header .form .icon {
     margin-right: 35px;
 }
 
-@media (max-width : 768px) {
+@media (max-width : 767px) {
     .services .srv-box {
         flex-direction: column;
         text-align: center;
@@ -448,7 +448,7 @@ header .form .icon {
     bottom: -150px;
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .design .image {
         display: none;
     }
@@ -492,21 +492,21 @@ header .form .icon {
 }
 
 .portofolio .shuffle {
-    display: flex;
-    justify-content: center;
-    margin: 25px 0;
+    text-align: center;
+    margin-bottom: 25px;
     text-transform: uppercase;
 }
 
+
+
 .portofolio .shuffle li {
-    padding: 10px 20px;
-    margin-right: 10px;
-    transition: var(--transition-duration);
+    display: inline-block;
+    padding: 20px;
 }
 
 .portofolio .shuffle li:hover {
     background-color: var(--main-color);
-
+    color: white;
 }
 
 .portofolio .shuffle li.active {
@@ -594,6 +594,7 @@ header .form .icon {
 
 .video video {
     width: 100%;
+    max-width: 100%;
 }
 
 .video .text {
